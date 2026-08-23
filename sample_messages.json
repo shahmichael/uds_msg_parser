@@ -1,0 +1,7 @@
+[
+  {"name": "Diagnostic Session Start", "bytes": [16, 1]},
+  {"name": "Read DID", "bytes": [34, 241, 144]},
+  {"name": "Negative Response", "bytes": [127, 34, 51]},
+  {"name": "ECU Reset", "bytes": [17, 1]},
+  {"name": "Communication Loss", "bytes": [85, 1, 0]}
+]

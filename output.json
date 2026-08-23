@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Diagnostic Session Start",
+    "raw_hex": "1001",
+    "raw_list": [
+      16,
+      1
+    ],
+    "service_id": "0x10",
+    "service_name": "Diagnostic Session Control",
+    "data_bytes": "01"
+  },
+  {
+    "name": "Read DID",
+    "raw_hex": "22F190",
+    "raw_list": [
+      34,
+      241,
+      144
+    ],
+    "service_id": "0x22",
+    "service_name": "Read Data by Identifier",
+    "data_bytes": "F190"
+  },
+  {
+    "name": "Negative Response",
+    "raw_hex": "7F2233",
+    "raw_list": [
+      127,
+      34,
+      51
+    ],
+    "service_id": "0x7F",
+    "service_name": "Negative Response",
+    "data_bytes": "2233",
+    "negative_response_details": {
+      "type": "Negative Response",
+      "requested_service": "Read Data by Identifier",
+      "error_code": "0x33",
+      "error_description": "Security Access Denied"
+    }
+  },
+  {
+    "name": "ECU Reset",
+    "raw_hex": "1101",
+    "raw_list": [
+      17,
+      1
+    ],
+    "service_id": "0x11",
+    "service_name": "ECU Reset",
+    "data_bytes": "01"
+  },
+  {
+    "name": "Communication Loss",
+    "raw_hex": "550100",
+    "raw_list": [
+      85,
+      1,
+      0
+    ],
+    "service_id": "0x55",
+    "service_name": "Unknown Service (0x15)",
+    "data_bytes": "0100"
+  }
+]
